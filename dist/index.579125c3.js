@@ -28,7 +28,7 @@ let player_params = {
     div: player_div,
     laser_velocity: 10,
     direction: "right",
-    laser_sound_effect: "../assets/player/laser_sound.mp3"
+    laser_sound_effect: "../assets/laser/laser_sound.mp3"
 };
 let player = new Player(player_params);
 let fuels = [];
@@ -57,7 +57,6 @@ const arr_collision_check = (arr1, arr2)=>{
     arr1.forEach((entity_1)=>{
         arr2.forEach((entity_2)=>{
             let collided = rect_collision_check(entity_1, entity_2);
-            console.log(collided);
             if (collided) {
                 delete_arr_entity(arr1, entity_1);
                 delete_arr_entity(arr2, entity_2);

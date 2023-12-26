@@ -1,8 +1,9 @@
 class Laser {
-    constructor(x, y, direction, velocity, boundaries){
+    constructor(x, y, direction, velocity, boundaries, sound_effect){
         this.x = x;
         this.y = y;
         this.direction = direction;
+        this.sound_effect = sound_effect;
         if (this.direction === "left") this.velocity = -velocity;
         else this.velocity = velocity;
         this.boundaries = boundaries;
@@ -16,6 +17,8 @@ class Laser {
         this.height = parseInt(style.height);
         this.move = this.move.bind(this);
         this.delete = this.delete.bind(this);
+        this.play_audio = this.play_audio.bind(this);
+        this.play_audio();
     }
     move() {
         this.x += this.velocity;
@@ -27,6 +30,15 @@ class Laser {
     }
     delete() {
         this.laser_div.remove();
+    }
+    async play_audio() {
+        let audio = new Audio(this.sound_effect);
+        audio.type = "audio/mp3";
+        try {
+            await audio.play();
+        } catch (err) {
+            console.log(err);
+        }
     }
 }
 

@@ -45,8 +45,8 @@ class Player {
         }
     }
     create_laser() {
-        this.lasers.push(new Laser(this.x, this.y, this.direction, this.laser_velocity, this.boundaries));
-    //let audio = new Audio(this.laser_sound_effect);
+        this.lasers.push(new Laser(this.x, this.y, this.direction, this.laser_velocity, this.boundaries, this.laser_sound_effect));
+    //let audio = new Audio();
     //audio.play();
     }
     handle_keyup(e) {

@@ -13,5 +13,8 @@
   "license": "ISC",
   "devDependencies": {
     "parcel": "^2.10.3"
+  },
+  "dependencies": {
+    "audio": "^1.2.0"
   }
 }
