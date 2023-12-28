@@ -5,7 +5,6 @@ class Player {
         this.div = params.div;
         this.jet = params.jet;
         this.laser_velocity = params.laser_velocity;
-        this.laser_sound_effect = params.laser_sound_effect;
         this.direction = params.direction;
         this.just_shot = false;
         this.jet_acceleration = 0;
@@ -13,7 +12,7 @@ class Player {
         this.x_velocity = 0;
         this.y_velocity = 0;
         this.boundaries = params.boundaries;
-
+        this.laser_audio = new Audio(params.laser_sound_effect);
         this.gravity = params.gravity;
         this.game_tick = params.game_tick;
         this.controls = params.controls;
@@ -33,15 +32,19 @@ class Player {
     handle_keydown(e) {
         let key = e.key.toLowerCase();
         if(key === this.controls.right) {
-            //"url('../assets/player/astronaut-right.png')"
             this.x_velocity = this.x_increment;            
             this.direction = "right";
-            let player = document.getElementById("player");   
+            let player = document.getElementById("player");
+            player.classList.remove("player_left");
+            player.classList.add("player_right");
+
         }
         if(key === this.controls.left) {
-            //"url('../assets/player/astronaut-left.png')"
             this.x_velocity = -this.x_increment;
             this.direction = "left";
+            let player = document.getElementById("player");
+            player.classList.remove("player_right");
+            player.classList.add("player_left");
         }
         if(key === this.controls.up) {
             this.jet_acceleration = this.jet;
@@ -58,8 +61,8 @@ class Player {
     create_laser() {
         this.lasers.push(new Laser(this.x, this.y, this.direction, this.laser_velocity, this.boundaries, this.laser_sound_effect));
         
-        //let audio = new Audio();
-        //audio.play();
+
+        this.laser_audio.play();
     }
 
     handle_keyup(e) {

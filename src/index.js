@@ -1,11 +1,14 @@
 let game_tick = 20;
 let gravity = 5;
 let player_controls = {up:"w", down:"s", right:"d", left:'a', shoot: "f"};
-let boundaries = {right: 1090, left: 378, top: 0, bottom:580};
+let boundaries = {right: 1090, left: 378, top: 55, bottom:650};
 let player_div = document.getElementById("player");
 const fuel_gen_cutoff = 1;
 const max_rand_val = 1000;
-
+///const laser_audio = require("../../laser_sound.mp3");
+//debugger;
+let player_score = 0;
+let score_div = document.getElementById("player_score");
 
 let player_params = {
     x: boundaries.left,
@@ -60,17 +63,28 @@ const rect_collision_check = (rect1, rect2) => {
 }
 
 const arr_collision_check = (arr1, arr2) => {
+    let collisions = 0;
     arr1.forEach((entity_1) => {
         arr2.forEach((entity_2) => {
-            let collided = rect_collision_check(entity_1, entity_2);
-            if(collided) {
+            if(rect_collision_check(entity_1, entity_2)) {
                 delete_arr_entity(arr1, entity_1);
                 delete_arr_entity(arr2, entity_2);
+                collisions+=1;
             }
         })
-    })
+    });
+    return collisions;
 }
 
+const entity_arr_collisions = (entity, arr) => {
+    let collisions = 0;
+    arr.forEach((val) => {
+        if(rect_collision_check(entity, val)) {
+            collisions += 1;
+        }
+    });
+    return collisions;
+}
 //Main engine:
 setInterval(
     ()=> {
@@ -79,5 +93,7 @@ setInterval(
         fuel_generator();
         move_arr(fuels);
         arr_collision_check(player.lasers, fuels);
+        player_score += entity_arr_collisions(player, fuels);
+        score_div.innerHTML = "Score: " + player_score.toString();
     }, game_tick
 );

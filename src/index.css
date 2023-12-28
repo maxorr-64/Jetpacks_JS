@@ -33,11 +33,19 @@ body {
   
 #player {
   position: absolute;
-  background-image: url("../assets/player/astronaut-front.png");
+  /*background-image: url("../assets/player/astronaut-front.png");*/
   background-size: contain;
   background-repeat: no-repeat;
   width:3em;
   height:3em;
+}
+
+.player_left {
+  background-image: url('../assets/player/astronaut-left.png');
+}
+
+.player_right {
+  background-image: url('../assets/player/astronaut-right.png');
 }
 
 .fuel {
@@ -47,6 +55,11 @@ body {
   background-image: url("../assets/fuel/fuel.png");
   background-size: contain;
   background-repeat: no-repeat;
+}
+
+#player_score {
+  text-align: center;
+  margin: 1%
 }
   
   

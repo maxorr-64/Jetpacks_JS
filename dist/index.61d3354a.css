@@ -32,12 +32,19 @@ body {
 }
 
 #player {
-  background-image: url("astronaut-front.40ea34e7.png");
   background-repeat: no-repeat;
   background-size: contain;
   width: 3em;
   height: 3em;
   position: absolute;
+}
+
+.player_left {
+  background-image: url("astronaut-left.6df866fd.png");
+}
+
+.player_right {
+  background-image: url("astronaut-right.c56ce671.png");
 }
 
 .fuel {
@@ -47,6 +54,11 @@ body {
   width: 2em;
   height: 2em;
   position: absolute;
+}
+
+#player_score {
+  text-align: center;
+  margin: 1%;
 }
 
 #game_screen {
