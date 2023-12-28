@@ -1,0 +1,72 @@
+html {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  color: #fff;
+  background-color: #000;
+  width: 100%;
+  height: 100%;
+}
+
+#root {
+  width: 100%;
+  height: 100%;
+}
+
+.player_laser {
+  background-image: url("player_laser.b06b4887.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 3em;
+  height: 1em;
+  position: absolute;
+}
+
+#game_container {
+  border: 2px dashed #fff;
+  width: 50%;
+  height: 90%;
+  margin: 0 auto;
+}
+
+#player {
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 3em;
+  height: 3em;
+  position: absolute;
+}
+
+.player_left {
+  background-image: url("astronaut-left.6df866fd.png");
+}
+
+.player_right {
+  background-image: url("astronaut-right.c56ce671.png");
+}
+
+.fuel {
+  background-image: url("fuel.3c744793.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 2em;
+  height: 2em;
+  position: absolute;
+}
+
+#player_score {
+  text-align: center;
+  margin: 1%;
+}
+
+#game_screen {
+  background-image: url("moonscape.fd6d68d4.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+}
+
+/*# sourceMappingURL=index.61d3354a.css.map */
