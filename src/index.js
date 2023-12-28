@@ -1,3 +1,5 @@
+//Test
+
 let game_tick = 20;
 let gravity = 5;
 let player_controls = {up:"w", down:"s", right:"d", left:'a', shoot: "f"};
