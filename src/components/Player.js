@@ -4,6 +4,7 @@ class Player {
         this.y = params.y;
         this.div = params.div;
         this.jet = params.jet;
+        this.laser_sound_effect = params.laser_sound_effect;
         this.laser_velocity = params.laser_velocity;
         this.direction = params.direction;
         this.just_shot = false;
@@ -16,6 +17,9 @@ class Player {
         this.gravity = params.gravity;
         this.game_tick = params.game_tick;
         this.controls = params.controls;
+        this.player_div = document.getElementById("player");
+        this.width = this.player_div.style.width;
+        this.height = this.player_div.style.height;
         this.lasers = [];
 
         this.handle_keydown = this.handle_keydown.bind(this);
@@ -34,17 +38,15 @@ class Player {
         if(key === this.controls.right) {
             this.x_velocity = this.x_increment;            
             this.direction = "right";
-            let player = document.getElementById("player");
-            player.classList.remove("player_left");
-            player.classList.add("player_right");
+            this.player_div.classList.remove("player_left");
+            this.player_div.classList.add("player_right");
 
         }
         if(key === this.controls.left) {
             this.x_velocity = -this.x_increment;
             this.direction = "left";
-            let player = document.getElementById("player");
-            player.classList.remove("player_right");
-            player.classList.add("player_left");
+            this.player_div.classList.remove("player_right");
+            this.player_div.classList.add("player_left");
         }
         if(key === this.controls.up) {
             this.jet_acceleration = this.jet;
@@ -60,9 +62,6 @@ class Player {
 
     create_laser() {
         this.lasers.push(new Laser(this.x, this.y, this.direction, this.laser_velocity, this.boundaries, this.laser_sound_effect));
-        
-
-        this.laser_audio.play();
     }
 
     handle_keyup(e) {

@@ -5,8 +5,6 @@ let boundaries = {right: 1090, left: 378, top: 55, bottom:650};
 let player_div = document.getElementById("player");
 const fuel_gen_cutoff = 1;
 const max_rand_val = 1000;
-///const laser_audio = require("../../laser_sound.mp3");
-//debugger;
 let player_score = 0;
 let score_div = document.getElementById("player_score");
 
@@ -76,15 +74,16 @@ const arr_collision_check = (arr1, arr2) => {
     return collisions;
 }
 
-const entity_arr_collisions = (entity, arr) => {
-    let collisions = 0;
-    arr.forEach((val) => {
-        if(rect_collision_check(entity, val)) {
-            collisions += 1;
+const check_fuel_player_collision = (fuels, player) => {
+    fuels.forEach((fuel) => {
+        if(rect_collision_check(fuel, player)) {
+            console.log(fuel);
+            delete_arr_entity(fuels, fuel);
+            player_score+=1;
         }
     });
-    return collisions;
 }
+
 //Main engine:
 setInterval(
     ()=> {
@@ -93,7 +92,6 @@ setInterval(
         fuel_generator();
         move_arr(fuels);
         arr_collision_check(player.lasers, fuels);
-        player_score += entity_arr_collisions(player, fuels);
-        score_div.innerHTML = "Score: " + player_score.toString();
+        check_fuel_player_collision(fuels, player);
     }, game_tick
 );

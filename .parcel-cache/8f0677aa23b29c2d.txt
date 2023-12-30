@@ -1,22 +1,22 @@
 5902
-63/home/max/Documents/Programming/Jetpacks/dist/index.27bd7ede.js1703736123137899924 0
+63/home/max/Documents/Programming/Jetpacks/dist/index.27bd7ede.js1703962177299206751 0
 63/home/max/Documents/Programming/Jetpacks/dist/index.755250bc.js1703736055928908221 0
-74/home/max/Documents/Programming/Jetpacks/dist/astronaut-right.c56ce671.png1703736123125899725 0
-63/home/max/Documents/Programming/Jetpacks/dist/index.a1d9c5ec.js1703736123137899924 0
-73/home/max/Documents/Programming/Jetpacks/dist/astronaut-left.6df866fd.png1703736123141899990 0
-70/home/max/Documents/Programming/Jetpacks/dist/Jetpacks.59712999.js.map1703736123153900188 0
-63/home/max/Documents/Programming/Jetpacks/dist/fuel.3c744793.png1703736123125899725 0
+74/home/max/Documents/Programming/Jetpacks/dist/astronaut-right.c56ce671.png1703962177183196348 0
+63/home/max/Documents/Programming/Jetpacks/dist/index.a1d9c5ec.js1703962177299206751 0
+73/home/max/Documents/Programming/Jetpacks/dist/astronaut-left.6df866fd.png1703962177175195630 0
+70/home/max/Documents/Programming/Jetpacks/dist/Jetpacks.59712999.js.map1703962177303207110 0
+63/home/max/Documents/Programming/Jetpacks/dist/fuel.3c744793.png1703962177187196706 0
 67/home/max/Documents/Programming/Jetpacks/dist/index.30b15558.js.map1703736055928908221 0
-63/home/max/Documents/Programming/Jetpacks/dist/index.579125c3.js1703736123141899990 0
+63/home/max/Documents/Programming/Jetpacks/dist/index.579125c3.js1703962177131191684 0
 67/home/max/Documents/Programming/Jetpacks/dist/index.755250bc.js.map1703736055932908272 0
-67/home/max/Documents/Programming/Jetpacks/dist/index.a1d9c5ec.js.map1703736123153900188 0
-68/home/max/Documents/Programming/Jetpacks/dist/index.61d3354a.css.map1703736123153900188 0
-64/home/max/Documents/Programming/Jetpacks/dist/index.61d3354a.css1703736123137899924 0
-71/home/max/Documents/Programming/Jetpacks/dist/player_laser.b06b4887.png1703736123141899990 0
+67/home/max/Documents/Programming/Jetpacks/dist/index.a1d9c5ec.js.map1703962177303207110 0
+68/home/max/Documents/Programming/Jetpacks/dist/index.61d3354a.css.map1703962177299206751 0
+64/home/max/Documents/Programming/Jetpacks/dist/index.61d3354a.css1703962177291206034 0
+71/home/max/Documents/Programming/Jetpacks/dist/player_laser.b06b4887.png1703962177175195630 0
 74/home/max/Documents/Programming/Jetpacks/dist/astronaut-front.40ea34e7.png1703736055924908169 0
-68/home/max/Documents/Programming/Jetpacks/dist/moonscape.fd6d68d4.jpg1703736123153900188 0
-45/home/max/Documents/Programming/Jetpacks/dist1703736123153900188 1
-69/home/max/Documents/Programming/Jetpacks/assets/laser/laser_sound.mp31703736010052378404 0
+68/home/max/Documents/Programming/Jetpacks/dist/moonscape.fd6d68d4.jpg1703962177119190608 0
+45/home/max/Documents/Programming/Jetpacks/dist1703962710452696343 1
+69/home/max/Documents/Programming/Jetpacks/assets/laser/laser_sound.mp31703962704784884405 0
 52/home/max/Documents/Programming/Jetpacks/assets/fuel1703736010052378404 1
 72/home/max/Documents/Programming/Jetpacks/assets/background/moonscape.jpg1703736010052378404 0
 74/home/max/Documents/Programming/Jetpacks/assets/player/astronaut-right.png1703736010056378445 0
@@ -892,7 +892,7 @@
 94/home/max/Documents/Programming/Jetpacks/node_modules/abortcontroller-polyfill/src/ponyfill.js1703736056940921312 0
 76/home/max/Documents/Programming/Jetpacks/node_modules/escalade/dist/index.js1703736057444927859 0
 81/home/max/Documents/Programming/Jetpacks/node_modules/entities/lib/encode-trie.js1703736057440927807 0
-65/home/max/Documents/Programming/Jetpacks/src/components/Player.js1703736057788932330 0
+65/home/max/Documents/Programming/Jetpacks/src/components/Player.js1703962258482487090 0
 75/home/max/Documents/Programming/Jetpacks/node_modules/escalade/package.json1703736057444927859 0
 84/home/max/Documents/Programming/Jetpacks/node_modules/svgo/plugins/removeMetadata.js1703736057708931290 0
 78/home/max/Documents/Programming/Jetpacks/node_modules/abortcontroller-polyfill1703736056940921312 1
@@ -1965,7 +1965,7 @@
 104/home/max/Documents/Programming/Jetpacks/node_modules/caniuse-lite/data/features/css-deviceadaptation.js1703736056980921829 0
 73/home/max/Documents/Programming/Jetpacks/node_modules/color-name/index.js1703736057172924324 0
 108/home/max/Documents/Programming/Jetpacks/node_modules/@parcel/runtime-browser-hmr/src/loaders/hmr-runtime.js1703736056356913755 0
-67/home/max/Documents/Programming/Jetpacks/dist/index.579125c3.js.map1703736123153900188 0
+67/home/max/Documents/Programming/Jetpacks/dist/index.579125c3.js.map1703962177131191684 0
 103/home/max/Documents/Programming/Jetpacks/node_modules/lmdb/dependencies/lmdb/libraries/liblmdb/module.c1703736057552929263 0
 73/home/max/Documents/Programming/Jetpacks/node_modules/callsites/readme.md1703736056956921519 0
 105/home/max/Documents/Programming/Jetpacks/node_modules/lmdb/dependencies/lmdb/libraries/liblmdb/mdb_load.11703736057548929211 0
@@ -2447,7 +2447,7 @@
 102/home/max/Documents/Programming/Jetpacks/node_modules/@swc/helpers/esm/_check_private_redeclaration.js1703736056892920691 0
 100/home/max/Documents/Programming/Jetpacks/node_modules/csso/node_modules/css-tree/cjs/utils/names.cjs1703736057360926767 0
 128/home/max/Documents/Programming/Jetpacks/node_modules/@parcel/optimizer-htmlnano/node_modules/css-tree/lib/syntax/atrule/page.js1703736056164911270 0
-53/home/max/Documents/Programming/Jetpacks/src/index.js1703736057788932330 0
+53/home/max/Documents/Programming/Jetpacks/src/index.js1703961621221338905 0
 104/home/max/Documents/Programming/Jetpacks/node_modules/htmlnano/lib/modules/removeRedundantAttributes.mjs1703736057476928275 0
 80/home/max/Documents/Programming/Jetpacks/node_modules/css-select/lib/esm/sort.js1703736057192924584 0
 84/home/max/Documents/Programming/Jetpacks/node_modules/@parcel/profiler/src/Tracer.js1703736056340913548 0
@@ -2928,7 +2928,7 @@
 104/home/max/Documents/Programming/Jetpacks/node_modules/@parcel/transformer-react-refresh-wrap/src/helpers1703736056624917223 1
 73/home/max/Documents/Programming/Jetpacks/node_modules/json5/lib/util.d.ts1703736057508928691 0
 112/home/max/Documents/Programming/Jetpacks/node_modules/css-select/node_modules/domutils/lib/manipulation.d.ts.map1703736057220924948 0
-64/home/max/Documents/Programming/Jetpacks/src/components/Laser.js1703736057788932330 0
+64/home/max/Documents/Programming/Jetpacks/src/components/Laser.js1703962246181383954 0
 90/home/max/Documents/Programming/Jetpacks/node_modules/@swc/helpers/esm/_new_arrow_check.js1703736056900920794 0
 91/home/max/Documents/Programming/Jetpacks/node_modules/svgo/plugins/removeEmptyContainers.js1703736057708931290 0
 74/home/max/Documents/Programming/Jetpacks/node_modules/json5/lib/parse.d.ts1703736057508928691 0
@@ -2984,7 +2984,7 @@
 79/home/max/Documents/Programming/Jetpacks/node_modules/cosmiconfig/dist/types.js1703736057176924376 0
 100/home/max/Documents/Programming/Jetpacks/node_modules/@parcel/transformer-postcss/lib/loadPlugins.js1703736056616917119 0
 72/home/max/Documents/Programming/Jetpacks/node_modules/css-tree/lib/lexer1703736057280925727 1
-56/home/max/Documents/Programming/Jetpacks/dist/index.html1703736123141899990 0
+56/home/max/Documents/Programming/Jetpacks/dist/index.html1703962177147193119 0
 84/home/max/Documents/Programming/Jetpacks/node_modules/cosmiconfig/dist/util.d.ts.map1703736057180924428 0
 136/home/max/Documents/Programming/Jetpacks/node_modules/@parcel/optimizer-htmlnano/node_modules/css-tree/lib/syntax/node/MediaQueryList.js1703736056172911374 0
 93/home/max/Documents/Programming/Jetpacks/node_modules/@swc/helpers/_/_tagged_template_literal1703736056848920121 1
@@ -3459,7 +3459,7 @@
 126/home/max/Documents/Programming/Jetpacks/node_modules/@parcel/optimizer-svgo/node_modules/css-tree/lib/syntax/scope/default.js1703736056264912564 0
 85/home/max/Documents/Programming/Jetpacks/node_modules/@swc/helpers/_/_define_property1703736056828919863 1
 98/home/max/Documents/Programming/Jetpacks/node_modules/@swc/helpers/_/_define_property/package.json1703736056828919863 0
-66/home/max/Documents/Programming/Jetpacks/dist/Jetpacks.59712999.js1703736123137899924 0
+66/home/max/Documents/Programming/Jetpacks/dist/Jetpacks.59712999.js1703962177299206751 0
 84/home/max/Documents/Programming/Jetpacks/node_modules/@parcel/core/src/Validation.js1703736056060909925 0
 77/home/max/Documents/Programming/Jetpacks/node_modules/domhandler/package.json1703736057420927547 0
 130/home/max/Documents/Programming/Jetpacks/node_modules/msgpackr-extract/node_modules/.bin/node-gyp-build-optional-packages-optional1703736057604929939 0
@@ -3476,7 +3476,7 @@
 72/home/max/Documents/Programming/Jetpacks/node_modules/fill-range/LICENSE1703736057448927911 0
 98/home/max/Documents/Programming/Jetpacks/node_modules/@swc/helpers/_/_define_enumerable_properties1703736056824919811 1
 90/home/max/Documents/Programming/Jetpacks/node_modules/@swc/helpers/_/_type_of/package.json1703736056856920225 0
-67/home/max/Documents/Programming/Jetpacks/dist/index.c83251df.js.map1703736123153900188 0
+67/home/max/Documents/Programming/Jetpacks/dist/index.c83251df.js.map1703962710452696343 0
 82/home/max/Documents/Programming/Jetpacks/node_modules/css-tree/lib/lexer/search.js1703736057280925727 0
 79/home/max/Documents/Programming/Jetpacks/node_modules/@swc/helpers/_/_ts_values1703736056856920225 1
 90/home/max/Documents/Programming/Jetpacks/node_modules/lightningcss/node/composeVisitors.js1703736057512928743 0
@@ -4043,7 +4043,7 @@
 85/home/max/Documents/Programming/Jetpacks/node_modules/@parcel/plugin/src/PluginAPI.js1703736056336913496 0
 79/home/max/Documents/Programming/Jetpacks/node_modules/@parcel/transformer-image1703736056604916964 1
 96/home/max/Documents/Programming/Jetpacks/node_modules/css-select/lib/pseudo-selectors/filters.js1703736057196924636 0
-63/home/max/Documents/Programming/Jetpacks/dist/index.c83251df.js1703736123141899990 0
+63/home/max/Documents/Programming/Jetpacks/dist/index.c83251df.js1703962710448696459 0
 90/home/max/Documents/Programming/Jetpacks/node_modules/@swc/helpers/_/_wrap_async_generator1703736056856920225 1
 87/home/max/Documents/Programming/Jetpacks/node_modules/@parcel/transformer-image/LICENSE1703736056604916964 0
 100/home/max/Documents/Programming/Jetpacks/node_modules/caniuse-lite/data/features/mutationobserver.js1703736057060922868 0
@@ -4542,7 +4542,7 @@
 139/home/max/Documents/Programming/Jetpacks/node_modules/@parcel/optimizer-htmlnano/node_modules/css-select/lib/pseudo-selectors/subselects.js1703736056148911063 0
 87/home/max/Documents/Programming/Jetpacks/node_modules/@parcel/core/test/fixtures/parcel1703736056096910391 1
 85/home/max/Documents/Programming/Jetpacks/node_modules/caniuse-lite/data/regions/AW.js1703736057112923544 0
-53/home/max/Documents/Programming/Jetpacks/assets/laser1703736010056378445 1
+53/home/max/Documents/Programming/Jetpacks/assets/laser1703962704784884405 1
 96/home/max/Documents/Programming/Jetpacks/node_modules/@parcel/core/test/fixtures/parcel/index.js1703736056096910391 0
 100/home/max/Documents/Programming/Jetpacks/node_modules/@parcel/core/test/fixtures/parcel/package.json1703736056096910391 0
 124/home/max/Documents/Programming/Jetpacks/node_modules/@parcel/core/test/fixtures/config-extends-not-found/.parcelrc-multiple1703736056080910183 0
@@ -4781,7 +4781,7 @@
 85/home/max/Documents/Programming/Jetpacks/node_modules/@parcel/workers/lib/cpuCount.js1703736056680917947 0
 81/home/max/Documents/Programming/Jetpacks/node_modules/domutils/lib/feeds.d.ts.map1703736057424927599 0
 106/home/max/Documents/Programming/Jetpacks/node_modules/caniuse-lite/data/features/element-scroll-methods.js1703736057016922296 0
-67/home/max/Documents/Programming/Jetpacks/dist/index.27bd7ede.js.map1703736123149900122 0
+67/home/max/Documents/Programming/Jetpacks/dist/index.27bd7ede.js.map1703962177303207110 0
 88/home/max/Documents/Programming/Jetpacks/node_modules/caniuse-lite/data/features/hevc.js1703736057028922452 0
 106/home/max/Documents/Programming/Jetpacks/node_modules/caniuse-lite/data/features/prefers-reduced-motion.js1703736057072923024 0
 98/home/max/Documents/Programming/Jetpacks/node_modules/caniuse-lite/data/features/iframe-sandbox.js1703736057032922504 0

@@ -24,7 +24,7 @@ class Laser {
         this.move = this.move.bind(this);
         this.delete = this.delete.bind(this);
         this.play_audio = this.play_audio.bind(this);
-
+        
         this.play_audio();
     }
 
